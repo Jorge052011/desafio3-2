@@ -12,7 +12,7 @@ else:
     else:
         print("Administrar 5 ventilaciones y llamar a ambulancia")
 
-# se inicia bucle para poder definir pasos segun llegada de ambulancia, definiendo en primera instancia que la ambulancia no ha llegado, para poder iniciar la iteración
+# se inicia bucle para poder definir pasos segun llegada de ambulancia, definiendo en primera instancia que la ambulancia no ha llegado, para poder iniciar la iteración, esto es lo que más costo, no daba con la forma de hacer el bucle.
         ambulancia = 'n'
         while ambulancia != 's':
             signos_vida = input("¿Tiene signos de vida? (s/n): ").lower()
